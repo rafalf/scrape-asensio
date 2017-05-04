@@ -172,7 +172,7 @@ def _write_row(row, full_path):
 if __name__ == '__main__':
     download_folder = None
     verbose = None
-    from_date = '01/01/1900'
+    from_date = '01/01/1970'
     to_date = '01/01/2100'
 
     log_file = os.path.join(os.path.dirname(__file__), 'logs',
